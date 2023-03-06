@@ -5,7 +5,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply bg-primary-100 text-primary-800 h-screen overflow-x-hidden text-base m-2 p-2;
+  @apply bg-gray-900 text-white h-screen overflow-x-hidden text-base m-2 p-2;
 }
 
 .button {
@@ -13,5 +13,5 @@ body {
 }
 
 .link {
-  @apply text-blue-600 hover:text-blue-700 underline;
+  @apply text-secondary-600 hover:text-secondary-700 underline;
 }
